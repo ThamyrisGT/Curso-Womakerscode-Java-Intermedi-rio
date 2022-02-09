@@ -8,8 +8,8 @@ public class MinhaThreadRunnable implements Runnable {
 	public MinhaThreadRunnable(String nome, int tempo) {
 		this.nome = nome;
 		this.tempo = tempo;
-		Thread t = new Thread(this);
-		t.start();
+		// Thread t = new Thread(this);
+		// t.start();
 	}
 
 	@Override
@@ -25,5 +25,4 @@ public class MinhaThreadRunnable implements Runnable {
 		}
 		System.out.println(nome + " terminou a execução");
 	}
-
 }
