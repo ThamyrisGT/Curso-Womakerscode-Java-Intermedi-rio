@@ -1,5 +1,7 @@
 package com.loiane.cursojava.threads.test;
 
+import com.loiane.cursojava.threads.labs.ThreadSemafaro;
+
 public class SimuladorSemafaro {
 
 	public static void main(String[] args) {
