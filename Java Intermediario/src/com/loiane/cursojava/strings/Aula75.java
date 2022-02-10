@@ -31,8 +31,9 @@ public class Aula75 {
 		String java3 = "JAVA";
 		String java4 = "JAVA";
 
-		System.out.println(java3);
-		System.out.println(java4);
+		System.out.println(java3); // cria um espaço na memória
+		System.out.println(java4); // veririfica se já existe no pool essa valor de string e ai se sim, aponta 
+								// pro msm id (caseSensitive)
 	}
 
 }
